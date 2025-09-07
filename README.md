@@ -25,12 +25,4 @@ It serves as a personal practice log, placement preparation resource, and refere
 
 - All solutions written in **C++ (STL where required)**  
 - Folder-wise organized by topic  
-- Each solution includes:
-  - ✅ Problem statement (brief description)  
-  - ✅ Well-commented C++ code  
-  - ✅ Time & Space Complexity analysis  
-
----
-
-## 📂 Folder Structure
 
