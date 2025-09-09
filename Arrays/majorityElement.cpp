@@ -23,7 +23,11 @@ int mooreVoting(vector<int>& nums, int n) {
         else cnt--;
     }
 
-    return maxi;
+    // If it's not given that there surely exists a number that occurs more than n/2 times, only then the below code is useful
+    cnt = 0;
+    for(int el: nums) if(el == maxi) cnt++;
+    
+    return (cnt > n/2) ? maxi : -1;
 }
 
 int main() {
